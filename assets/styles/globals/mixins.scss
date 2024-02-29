@@ -1,0 +1,70 @@
+
+// Media query based on tailwind theme variables
+@mixin media($size) {
+  @media (min-width: theme('screens.#{$size}')) {
+    @content;
+  }
+}
+
+// Box
+@mixin box($box-color: red, $padding: false) {
+  border: 1px dotted $box-color;
+  background: rgba($box-color, 0.1);
+
+  @if $padding {
+    padding: $padding;
+  }
+}
+
+// Nested boxes
+@mixin boxer($box-color: red, $padding: false, $levels: 4) {
+  @include box($box-color, $padding);
+
+  > * {
+    @include box($box-color, $padding);
+  }
+
+  @if $levels > 1 {
+    > * > * {
+      @include box($box-color, $padding);
+    }
+  }
+
+  @if $levels > 2 {
+    > * > * > * {
+      @include box($box-color, $padding);
+    }
+  }
+
+  @if $levels > 3 {
+    > * > * > * > * {
+      @include box($box-color, $padding);
+    }
+  }
+
+  @if $levels > 4 {
+    > * > * > * > * > * {
+      @include box($box-color, $padding);
+    }
+  }
+}
+
+// Clearfix
+@mixin clearfix() {
+  &::after,
+  &::before {
+    content: ' ';
+    display: table;
+  }
+
+  &::after {
+    clear: both;
+  }
+}
+
+// Add period to sentence
+@mixin addPeriod() {
+  &:after {
+    content: '.';
+  }
+}

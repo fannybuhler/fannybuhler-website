@@ -1,0 +1,34 @@
+// Library
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+// Globals
+@import 'globals/fonts';
+
+// Components
+@import 'components/button';
+
+// Dev
+@import 'dev';
+
+//
+// Generic
+//
+html {
+  @apply font-sans; 
+  
+  *:focus {
+    outline: none;
+  }
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  // @apply bg-mist/20;
+
+  @screen lg {
+    // font-size: clamp(14px, 1.08vw, 20px);
+  }
+}
