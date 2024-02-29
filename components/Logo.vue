@@ -7,5 +7,5 @@
 </template>
 
 <script async setup>
-// 
+//
 </script>
