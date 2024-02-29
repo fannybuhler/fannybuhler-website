@@ -23,6 +23,8 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     // https://nuxt.com/modules/icons
     'nuxt-icons',
+    // https://google-fonts.nuxtjs.org/getting-started/setup
+    '@nuxtjs/google-fonts'
   ],
 
   // https://nuxt.com/docs/getting-started/configuration
@@ -39,5 +41,12 @@ export default defineNuxtConfig({
   // Global styling
   css: [
     '@/assets/styles/main.scss'
-  ]
+  ],
+
+  // Google Fonts setup
+  googleFonts: {
+    families: {
+      'Space+Grotesk': '400..600'
+    }
+  }
 })

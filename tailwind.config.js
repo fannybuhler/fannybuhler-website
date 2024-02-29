@@ -11,10 +11,10 @@ module.exports = {
   ],
   theme: {
     extend: {
-      // fontFamily: {
-      //   'sans': ['Inter'],
-      //   'serif': ['Lora'],
-      // },
+      fontFamily: {
+        'sans': ['Space Grotesk'],
+        // 'serif': ['Lora'],
+      },
     }
   }
 }

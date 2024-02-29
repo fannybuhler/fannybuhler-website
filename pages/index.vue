@@ -22,7 +22,7 @@
     <div class="fixed left-0 bottom-[20%] w-full px-6">
       <!-- Intro -->
       <div class="grid gap-2 mb-8 md:mb-24 md:w-full md:max-w-[50vw] mx-auto">
-        <h1 class="font-medium text-xl md:text-5xl">Fanny Buhler</h1>
+        <h1 class="font-medium text-xl md:text-5xl">Fanny Buhlér</h1>
         <p class="text-sm md:text-lg max-w-lg">
           A communicative and design driven frontend developer currently working
           at Made People.
