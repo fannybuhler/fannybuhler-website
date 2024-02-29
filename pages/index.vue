@@ -1,7 +1,10 @@
 <template>
   <Head>
     <Title>Fanny Buhlér</Title>
-    <Meta name="description" content="A communicative and design driven frontend developer currently working at Made People." />
+    <Meta
+      name="description"
+      content="A communicative and design driven frontend developer currently working at Made People."
+    />
     <Meta name="og:image" content="/fanny-share.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -13,7 +16,7 @@
   </Head>
   <div class="grid gap-4 px-6">
     <Logo />
-    <div class="fixed left-0 bottom-[20%] w-full px-6">
+    <div class="fixed left-0 bottom-[20%] w-full pl-10 pr-4">
       <Intro />
       <Projects />
     </div>
