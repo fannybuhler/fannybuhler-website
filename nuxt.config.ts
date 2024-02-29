@@ -6,6 +6,8 @@ export default defineNuxtConfig({
   modules: [
     // https://nuxt.com/modules/tailwindcss
     '@nuxtjs/tailwindcss',
+    // https://nuxt.com/modules/icons
+    'nuxt-icons',
   ],
 
   // https://nuxt.com/docs/getting-started/configuration
