@@ -12,22 +12,10 @@
     <!-- <Meta name="og:image" content="" /> -->
   </Head>
   <div class="grid gap-4 px-6">
-    <div class="w-12 md:w-20 fixed top-0 left-6 md:left-12">
-      <div class="aspect-square bg-pink-500 p-4">
-        <!-- <AtomIcon class="w-4" name="fanny-logo" /> -->
-      </div>
-    </div>
+    <Logo />
 
-    <!-- Content -->
     <div class="fixed left-0 bottom-[20%] w-full px-6">
-      <!-- Intro -->
-      <div class="grid gap-2 mb-8 md:mb-24 md:w-full md:max-w-[50vw] mx-auto">
-        <h1 class="font-medium text-xl md:text-5xl">Fanny Buhlér</h1>
-        <p class="text-sm md:text-lg max-w-lg">
-          A communicative and design driven frontend developer currently working
-          at Made People.
-        </p>
-      </div>
+      <Intro />
 
       <!-- Projects -->
       <div class="-mr-6 flex justify-end">
@@ -84,38 +72,7 @@
       </div>
     </div>
 
-    <!-- Footer -->
-    <div class="fixed bottom-0 left-0 w-full px-6 md:px-12 py-4 md:py-6">
-      <div
-        class="text-center flex items-center justify-center md:justify-between text-xs md:text-sm"
-      >
-        <div class="hidden md:block">© 2024</div>
-        <div class="flex items-center gap-4">
-          <a class="block" href="mailto:fanny.buhler1@gmail.com"> [ email ] </a>
-          <a
-            class="block"
-            href="https://www.linkedin.com/in/fanny-buhler"
-            target="_blank"
-          >
-            [ linkedin ]
-          </a>
-          <a
-            class="block"
-            href="https://open.spotify.com/user/1132908801?si=fd6b115c7caa468f"
-            target="_blank"
-          >
-            [ spotify ]
-          </a>
-          <a
-            class="block"
-            href="https://www.instagram.com/fannyvafan"
-            target="_blank"
-          >
-            [ instagram ]
-          </a>
-        </div>
-      </div>
-    </div>
+    <Footer />
   </div>
 </template>
 
