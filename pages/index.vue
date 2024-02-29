@@ -16,7 +16,7 @@
   </Head>
   <div class="grid gap-4 px-6">
     <Logo />
-    <div class="fixed left-0 bottom-[20%] w-full pl-10 pr-4">
+    <div class="fixed left-0 bottom-[20%] w-full px-6">
       <Intro />
       <Projects />
     </div>
