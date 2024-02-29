@@ -18,7 +18,7 @@ const props = defineProps({
   @apply flex items-center justify-center fill-current;
 
   &:deep(svg) {
-    @apply mb-0 w-auto;
+    @apply mb-0 h-auto w-full;
   }
 }
 </style>
