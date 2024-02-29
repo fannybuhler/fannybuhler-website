@@ -2,6 +2,21 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
+  // https://nuxt.com/docs/getting-started/seo-meta#app-head
+  app: {
+    head: {
+      htmlAttrs: {
+        lang: 'en'
+      },
+      charset: 'utf-8',
+      viewport: 'width=device-width, initial-scale=1',
+      link: [
+        { rel: 'icon', sizes: '16x16', href: `/favicon-16x16.png` },
+        { rel: 'icon', sizes: '32x32', href: `/favicon-32x32.png` }
+      ]
+    }
+  },
+
   // https://nuxt.com/modules
   modules: [
     // https://nuxt.com/modules/tailwindcss
