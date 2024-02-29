@@ -1,11 +1,17 @@
 <template>
   <div class="-mr-6 flex justify-end">
-    <div class="ml-10 md:ml-0 text-xs md:text-lg w-full md:max-w-[55vw]">
+    <div class="ml-6 md:ml-0 text-xs md:text-lg w-full md:max-w-[55vw]">
       <div class="mb-3 font-medium">Recent Projects</div>
-      <div class="border-b border-b-black" @mouseleave="active = 0">
+      <div @mouseleave="active = 0">
         <a
-          class="flex items-center border-t border-t-black py-3 pr-3 md:pr-6 group transition duration-500"
-          :class="[0, 1].includes(active) ? 'text-black' : 'text-black/20'"
+          class="flex items-center border-y py-3 pr-3 md:pr-6 group transition duration-500"
+          :class="
+            active === 0
+              ? 'text-black border-black border-b-transparent'
+              : active === 1
+              ? 'text-black border-black border-b-black'
+              : 'text-black/20 border-t-black/20 border-b-transparent'
+          "
           href="https://minirodini.com"
           target="_blank"
           @mouseover="active = 1"
@@ -18,8 +24,14 @@
           />
         </a>
         <a
-          class="flex items-center border-t border-t-black py-3 pr-3 md:pr-6 group transition duration-500"
-          :class="[0, 2].includes(active) ? 'text-black' : 'text-black/20'"
+          class="flex items-center border-y py-3 pr-3 md:pr-6 group transition duration-500"
+          :class="
+            active === 0
+              ? 'text-black border-black border-b-transparent'
+              : active === 2
+              ? 'text-black border-black border-b-black'
+              : 'text-black/20 border-t-black/20 border-b-transparent'
+          "
           href="https://astridlindgren.com"
           target="_blank"
           @mouseover="active = 2"
@@ -32,8 +44,14 @@
           />
         </a>
         <a
-          class="flex items-center border-t border-t-black py-3 pr-3 md:pr-6 group transition duration-500"
-          :class="[0, 3].includes(active) ? 'text-black' : 'text-black/20'"
+          class="flex items-center border-y py-3 pr-3 md:pr-6 group transition duration-500"
+          :class="
+            active === 0
+              ? 'text-black border-black border-b-transparent'
+              : active === 3
+              ? 'text-black border-black border-b-black'
+              : 'text-black/20 border-t-black/20 border-b-transparent'
+          "
           href="https://rohnisch.com"
           target="_blank"
           @mouseover="active = 3"
@@ -46,8 +64,14 @@
           />
         </a>
         <a
-          class="flex items-center border-t border-t-black py-3 pr-3 md:pr-6 group transition duration-500"
-          :class="[0, 4].includes(active) ? 'text-black' : 'text-black/20'"
+          class="flex items-center border-y py-3 pr-3 md:pr-6 group transition duration-500"
+          :class="
+            active === 0
+              ? 'text-black border-black border-b-transparent'
+              : active === 4
+              ? 'text-black border-black border-b-black'
+              : 'text-black/20 border-t-black/20 border-b-transparent'
+          "
           href="https://oascompany.com"
           target="_blank"
           @mouseover="active = 4"
@@ -60,8 +84,14 @@
           />
         </a>
         <a
-          class="flex items-center border-t border-t-black py-3 pr-3 md:pr-6 group transition duration-500"
-          :class="[0, 5].includes(active) ? 'text-black' : 'text-black/20'"
+          class="flex items-center border-y py-3 pr-3 md:pr-6 group transition duration-500"
+          :class="
+            active === 0
+              ? 'text-black border-black border-b-transparent'
+              : active === 5
+              ? 'text-black border-black border-b-black'
+              : 'text-black/20 border-t-black/20 border-b-transparent'
+          "
           href="https://eqpestore.com"
           target="_blank"
           @mouseover="active = 5"
