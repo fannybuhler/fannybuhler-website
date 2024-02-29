@@ -4,7 +4,7 @@
       class="text-center flex items-center justify-center md:justify-between text-xs md:text-sm"
     >
       <div class="hidden md:block">© 2024</div>
-      <div class="flex items-center gap-4">
+      <div class="flex items-center gap-4 md:gap-12">
         <a class="block" href="mailto:fanny.buhler1@gmail.com"> [ email ] </a>
         <a
           class="block"
