@@ -1,7 +1,7 @@
 <template>
   <div class="-mr-6 flex justify-end">
     <div class="ml-6 md:ml-0 text-xs md:text-lg w-full md:max-w-[55vw]">
-      <div class="mb-3 font-medium">Recent Projects</div>
+      <div class="mb-3">Recent Projects</div>
       <div @mouseleave="active = 0">
         <a
           class="flex items-center border-y py-3 pr-3 md:pr-6 group transition duration-500"
