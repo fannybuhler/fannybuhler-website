@@ -4,7 +4,7 @@
     <p class="text-sm md:text-lg max-w-lg">
       A communicative and design driven frontend developer currently working at
       <a
-        class="transition duration-300 hover:text-[#FF0090]"
+        class="transition duration-300 hover:text-hotpink"
         href="https://madepeople.se/"
         target="_blank"
         >Made People</a

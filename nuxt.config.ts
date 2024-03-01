@@ -6,25 +6,25 @@ export default defineNuxtConfig({
   app: {
     head: {
       htmlAttrs: {
-        lang: 'en'
+        lang: "en",
       },
-      charset: 'utf-8',
-      viewport: 'width=device-width, initial-scale=1',
+      charset: "utf-8",
+      viewport: "width=device-width, initial-scale=1",
       link: [
-        { rel: 'icon', sizes: '16x16', href: `/favicon-16x16.png` },
-        { rel: 'icon', sizes: '32x32', href: `/favicon-32x32.png` }
-      ]
-    }
+        { rel: "icon", sizes: "16x16", href: `/favicon-16x16.png` },
+        { rel: "icon", sizes: "32x32", href: `/favicon-32x32.png` },
+      ],
+    },
   },
 
   // https://nuxt.com/modules
   modules: [
     // https://nuxt.com/modules/tailwindcss
-    '@nuxtjs/tailwindcss',
+    "@nuxtjs/tailwindcss",
     // https://nuxt.com/modules/icons
-    'nuxt-icons',
+    "nuxt-icons",
     // https://google-fonts.nuxtjs.org/getting-started/setup
-    '@nuxtjs/google-fonts'
+    "@nuxtjs/google-fonts",
   ],
 
   // https://nuxt.com/docs/getting-started/configuration
@@ -32,21 +32,19 @@ export default defineNuxtConfig({
     css: {
       preprocessorOptions: {
         scss: {
-          additionalData: `@import "@/assets/styles/globals/mixins.scss";`
-        }
-      }
-    }
+          additionalData: `@import "@/assets/styles/globals/mixins.scss";`,
+        },
+      },
+    },
   },
 
   // Global styling
-  css: [
-    '@/assets/styles/main.scss'
-  ],
+  css: ["@/assets/styles/main.scss", "@/assets/styles/tailwind.css"],
 
   // Google Fonts setup
   googleFonts: {
     families: {
-      'Space+Grotesk': '400..600'
-    }
-  }
-})
+      "Space+Grotesk": "400..600",
+    },
+  },
+});

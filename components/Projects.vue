@@ -15,7 +15,7 @@
           <div class="flex-1">www.minirodini.com</div>
           <AtomIcon
             name="arrow-right"
-            class="w-4 md:group-hover:scale-125 origin-left md:group-hover:text-hotpink transition duration-300 text-hotpink md:text-black"
+            class="w-4 md:group-hover:scale-125 md:group-hover:text-hotpink origin-left transition duration-300 text-hotpink md:text-black"
           />
         </a>
         <a
@@ -30,7 +30,7 @@
           <div class="flex-1">www.astridlindgren.com</div>
           <AtomIcon
             name="arrow-right"
-            class="w-4 md:group-hover:scale-125 origin-left md:group-hover:text-hotpink transition duration-300 text-hotpink md:text-black"
+            class="w-4 md:group-hover:scale-125 md:group-hover:text-hotpink origin-left transition duration-300 text-hotpink md:text-black"
           />
         </a>
         <a
@@ -45,7 +45,7 @@
           <div class="flex-1">www.rohnisch.com</div>
           <AtomIcon
             name="arrow-right"
-            class="w-4 md:group-hover:scale-125 origin-left md:group-hover:text-hotpink transition duration-300 text-hotpink md:text-black"
+            class="w-4 md:group-hover:scale-125 md:group-hover:text-hotpink origin-left transition duration-300 text-hotpink md:text-black"
           />
         </a>
         <a
@@ -60,7 +60,7 @@
           <div class="flex-1">www.oascompany.com</div>
           <AtomIcon
             name="arrow-right"
-            class="w-4 md:group-hover:scale-125 origin-left md:group-hover:text-hotpink transition duration-300 text-hotpink md:text-black"
+            class="w-4 md:group-hover:scale-125 md:group-hover:text-hotpink origin-left transition duration-300 text-hotpink md:text-black"
           />
         </a>
         <a
@@ -75,7 +75,7 @@
           <div class="flex-1">www.eqpestore.com</div>
           <AtomIcon
             name="arrow-right"
-            class="w-4 md:group-hover:scale-125 origin-left md:group-hover:text-hotpink transition duration-300 text-hotpink md:text-black"
+            class="w-4 md:group-hover:scale-125 md:group-hover:text-hotpink origin-left transition duration-300 text-hotpink md:text-black"
           />
         </a>
       </div>
