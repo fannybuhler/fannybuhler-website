@@ -10,7 +10,6 @@ export default defineNuxtConfig({
 
   // https://nuxt.com/docs/getting-started/seo-meta#app-head
   app: {
-    baseURL: 'https://fannybuhler.com',
     head: {
       htmlAttrs: {
         lang: "en",
