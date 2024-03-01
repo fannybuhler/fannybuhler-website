@@ -2,6 +2,12 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
+  // Setup build date
+  appConfig: {
+    // you don't need to include this: only for testing purposes
+    buildDate: new Date().toISOString(),
+  },
+
   // https://nuxt.com/docs/getting-started/seo-meta#app-head
   app: {
     baseURL: 'https://fannybuhler.com',
@@ -17,7 +23,7 @@ export default defineNuxtConfig({
       ],
     },
   },
-
+  
   // https://nuxt.com/modules
   modules: [
     // https://nuxt.com/modules/tailwindcss
