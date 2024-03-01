@@ -4,7 +4,7 @@
       class="text-center flex items-center justify-center md:justify-between text-xs md:text-sm"
     >
       <div class="hidden md:block">
-        © 2024
+        © {{ new Date().getFullYear() }}
         <ClientOnly>
           <span class="text-xs opacity-0 hover:opacity-20">
             Built: {{ useAppConfig().buildDate }}
