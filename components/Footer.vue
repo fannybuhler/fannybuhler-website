@@ -3,7 +3,14 @@
     <div
       class="text-center flex items-center justify-center md:justify-between text-xs md:text-sm"
     >
-      <div class="hidden md:block">© 2024</div>
+      <div class="hidden md:block">
+        © 2024
+        <ClientOnly>
+          <span class="text-xs opacity-0 hover:opacity-20">
+            Built: {{ useAppConfig().buildDate }}
+          </span>
+        </ClientOnly>
+      </div>
       <div class="flex items-center gap-4 md:gap-12">
         <a
           class="transition duration-300 hover:text-[#FF0090]"
